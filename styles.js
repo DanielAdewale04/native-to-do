@@ -37,5 +37,10 @@ export const mainAppStyle = StyleSheet.create({
     itemFont: {
         color: 'silver',
         fontSize: 17,
+    },
+    noItemMsg: {
+        color: 'silver',
+        fontSize: 17,
+        textAlign: 'center'
     }
 })
