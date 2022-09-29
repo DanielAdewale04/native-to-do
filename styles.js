@@ -32,11 +32,12 @@ export const mainAppStyle = StyleSheet.create({
         paddingVertical: 12,
         paddingHorizontal: 17,
         borderRadius: 8,
-        width: 'auto'
+        width: 340
     },
     itemFont: {
         color: 'silver',
         fontSize: 17,
+        lineHeight: 28
     },
     noItemMsg: {
         color: 'silver',

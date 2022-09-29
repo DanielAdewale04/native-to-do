@@ -52,7 +52,7 @@ export default function App() {
                 <View 
                   style={mainAppStyle.itemWrap}
                   key={index}
-                  onPress={handleDelete}
+                  onPress={() => handleDelete(index)}
                 >
                   <Text style={mainAppStyle.itemFont}>{item}</Text>
                 </View>
